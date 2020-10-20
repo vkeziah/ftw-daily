@@ -16,7 +16,9 @@ const SectionHowItWorks = props => {
       <div className={css.title}>
         <FormattedMessage id="SectionHowItWorks.titleLineOne" />
         <br />
-        <FormattedMessage id="SectionHowItWorks.titleLineTwo" />
+        <div className={css.titleLineTwo}>
+          <FormattedMessage id="SectionHowItWorks.titleLineTwo" />
+        </div>
       </div>
 
       <div className={css.steps}>

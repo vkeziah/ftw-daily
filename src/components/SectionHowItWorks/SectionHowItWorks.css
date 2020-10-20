@@ -5,6 +5,10 @@
   margin-top: 0;
 }
 
+.titleLineTwo{
+  font-size: 20px;
+}
+
 .steps {
   display: flex;
   flex-direction: column;

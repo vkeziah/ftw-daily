@@ -85,16 +85,17 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'smoke', label: 'Smoke' },
-        { key: 'electric', label: 'Electric' },
-        { key: 'wood', label: 'Wood' },
+        { key: 'podcast', label: 'Podcast' },
+        { key: 'home_studio', label: 'Home Studio' },
+        { key: 'mid_level', label: 'Mid Level Studio' },
+        { key: 'top_line', label: 'Top Level Studio' },
         { key: 'other', label: 'Other' },
       ],
     },
   },
   {
     id: 'amenities',
-    label: 'Amenities',
+    label: 'Features',
     type: 'SelectMultipleFilter',
     group: 'secondary',
     queryParamNames: ['pub_amenities'],
@@ -109,36 +110,20 @@ export const filters = [
       // to make filter customizations a bit easier.
       options: [
         {
-          key: 'towels',
-          label: 'Towels',
+          key: 'musical_instruments',
+          label: 'Musical Instruments',
         },
         {
-          key: 'bathroom',
-          label: 'Bathroom',
+          key: 'voice_adjuter',
+          label: 'Voice Adjuster',
         },
         {
-          key: 'swimming_pool',
-          label: 'Swimming pool',
+          key: 'volume_controller',
+          label: 'Volume Controller',
         },
         {
-          key: 'own_drinks',
-          label: 'Own drinks allowed',
-        },
-        {
-          key: 'jacuzzi',
-          label: 'Jacuzzi',
-        },
-        {
-          key: 'audiovisual_entertainment',
-          label: 'Audiovisual entertainment',
-        },
-        {
-          key: 'barbeque',
-          label: 'Barbeque',
-        },
-        {
-          key: 'own_food_allowed',
-          label: 'Own food allowed',
+          key: 'equilizer',
+          label: 'Equilizers',
         },
       ],
     },

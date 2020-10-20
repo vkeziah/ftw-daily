@@ -6,6 +6,7 @@ import {
   ContactDetailsPage,
   EditListingPage,
   EmailVerificationPage,
+  HowItWorkPage,
   InboxPage,
   LandingPage,
   ListingPage,
@@ -57,6 +58,11 @@ const routeConfiguration = () => {
       path: '/',
       name: 'LandingPage',
       component: props => <LandingPage {...props} />,
+    },
+    {
+      path: '/howitworks',
+      name: 'HowItWorkPage',
+      component: HowItWorkPage
     },
     {
       path: '/about',
